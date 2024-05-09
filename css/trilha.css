@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #D1CAF9;
+}
+
+header {
+    background-color: #8475D6;
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    margin-right: 15px;
+    width: 25px;
+}
+
+.trilha {
+    margin-left: 15px;
+    display: flex;
+    align-items: center; 
+}
+
+.trilha img {
+    margin-right: 10px;
+    width: 40px;
+}
+
+header .trilha h2 {
+    margin-bottom: 6px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.trilha a {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.nivel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+}
+
+.nivel p {
+    margin-left: 9px;
+    font-size: 13px;
+}
+
+.nivel p a {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+
